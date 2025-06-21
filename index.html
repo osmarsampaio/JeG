@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  <title>Feliz Dia dos Namorados 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="modal.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="description" content="Uma mensagem especial de Dia dos Namorados com nossas fotos e músicas favoritas" />
+  
+  <!-- Fonts Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet" />
+  
+  <!-- Meta para tema no mobile -->
+  <meta name="theme-color" content="#D91438" data-theme-color="light" data-dark-theme-color="#A60A43" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="color-scheme" content="light dark" />
+</head>
+<body>
+  <header>
+    <button id="tema-toggle" class="tema-toggle" aria-label="Alternar para tema escuro">
+      <span class="tema-icone" aria-hidden="true">🌙</span>
+    </button>
+    <h1>Feliz Dia dos Namorados, minha princesa <span aria-hidden="true">💘</span></h1>
+  </header>
+
+  <main>
+    <section id="contador" aria-label="Tempo de relacionamento">
+      <h2>Estamos juntos há:</h2>
+      <div id="tempo" aria-live="polite" aria-atomic="true"></div>
+    </section>
+
+    <section id="cartinha" aria-label="Carta de amor">
+      <h2>Uma cartinha pra você <span role="img" aria-label="coração em envelope" aria-hidden="true">💌</span></h2>
+      <p>
+       Feliz Dia dos Namorados meu amor!!!
+Você é o melhor presente que Deus ja me deu, o abraço que me acalma, o sorriso e o riso que me contagia, morada do meu amor, meu porto seguro que me traz paz e o amor que me preenche completamente.
+Que agente continue sempre juntinhos, lado a lado, construindo um futuro, um “nós” cada vez mais forte e bonito, e que nosso ultimo destino seja o casamento 💘.
+Te amo muito muito, hoje e para sempre.❤️♾️
+      </p>
+    </section>
+
+    <section id="fotos" aria-label="Galeria de fotos e vídeos">
+      <h2>Nossas Mídias <span role="img" aria-label="câmera" aria-hidden="true">📸</span></h2>
+      <div class="galeria">
+        <div class="midia-container">
+          <video class="midia" preload="metadata" aria-label="Vídeo nosso" controlsList="nodownload" disablePictureInPicture width="800" height="450">
+            <source src="fotos/vd1.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+          <span class="sr-only">Clique para ampliar o vídeo</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img1.jpg" alt="Nossa foto 1" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img2.jpg" alt="Nossa foto 2" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img3.jpg" alt="Nossa foto 3" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img4.jpg" alt="Nossa foto 4" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img5.jpg" alt="Nossa foto 5" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img6.jpg" alt="Nossa foto 6" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+        <div class="midia-container">
+          <img src="fotos/img7.jpg" alt="Nossa foto 7" class="midia" loading="lazy" width="400" height="600" />
+          <span class="sr-only">Clique para ampliar a imagem</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="musicas" aria-label="Músicas">
+      <h2>Músicas que lembram nós dois <span role="img" aria-label="nota musical" aria-hidden="true">🎶</span></h2>
+
+      <article class="musica">
+        <h3>ATÉ O FINAL - Caio Luccas</h3>
+        <audio src="musica1anjos.mp3" controls preload="none"></audio>
+      </article>
+
+      <article class="musica" aria-label="Música: ILUSÃO CRACOLÂNDIA - Vários artistas" role="article">
+        <h3>BIN & MC Hariel - Pura Ilusão</h3>
+        <audio src="BIN & MC Hariel - Pura Ilusão.mp3" controls preload="none" aria-label="Player de áudio: ILUSÃO CRACOLÂNDIA"></audio>
+      </article>
+
+      <article class="musica" aria-label="Música: ATÉ O FINAL - Caio Luccas" role="article">
+        <h3>AOs Anjos Cantam - Jorge & Mateus</h3>
+        <audio src="musica3eamor.mp3" controls preload="none" aria-label="Player de áudio: ATÉ O FINAL"></audio>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p id="mensagem-amor" class="mensagem-amor confetti-trigger">EU te amo muitãooooo pipoca! <span aria-hidden="true">❤️</span></p>
+  </footer>
+  
+  <!-- Biblioteca de confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- Loading Indicator -->
+  <div id="loading-indicator" class="loading-indicator"></div>
+  
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1" aria-label="Visualizador de mídia">
+    <!-- Botão de fechar no canto superior direito -->
+    <button class="fechar" aria-label="Fechar visualizador" aria-keyshortcuts="Escape">&times;</button>
+    
+    <div class="modal-conteudo">
+      <!-- Botão Anterior -->
+      <button class="btn btn-anterior" aria-label="Mídia anterior">
+        <span class="seta-esquerda">❮</span>
+      </button>
+      
+      <!-- Container da Mídia -->
+      <div class="modal-midia-container">
+        <img id="modal-img" class="modal-midia" alt="Imagem ampliada" style="display: none;">
+        <video id="modal-video" class="modal-midia" controls playsinline style="display: none;">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+      
+      <!-- Botão Próximo -->
+      <button class="btn btn-proximo" aria-label="Próxima mídia">
+        <span class="seta-direita">❯</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script src="script-novo.js" defer></script>
+  
+  <!-- Script antigo removido para evitar conflitos -->
+  <!-- <script src="script.js"></script> -->
+</body>
+</html>
